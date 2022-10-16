@@ -20,10 +20,11 @@ public class SecurityConfiguration {
             .anyRequest().authenticated())
         .csrf(c -> c.csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
         .logout(l -> l.logoutSuccessUrl("/").permitAll())
-        .oauth2Login(o -> o
-            .successHandler((request, response, authentication) -> {
-                response.sendRedirect("/");
-            }));
+        .oauth2Login();
+        //.oauth2Login(o -> o
+        //    .successHandler((request, response, authentication) -> {
+        //        response.sendRedirect("/");
+        //    }));
 		
         return http.build();
     }

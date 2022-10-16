@@ -9,3 +9,4 @@ Sample project to demonstrate OIDC Connect using Google as OIDC provider.
 | https://yatheesanc9.medium.com/spring-boot-with-google-sign-in-8e304dbe936e | Another good Example for App Registraction |
 | https://hellokoding.com/spring-security-oauth2-and-openid-connect-in-spring-boot/ | Example using Github as OIDC provider |
 | https://spring.io/blog/2022/02/21/spring-security-without-the-websecurityconfigureradapter | WebSecurityConfigurerAdapter Deprecated |
+| https://www.callicoder.com/spring-boot-security-oauth2-social-login-part-1/ | Multiple in one tutorial (Niceone) |
